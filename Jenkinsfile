@@ -1,27 +1,11 @@
-pipeline{
-    agent any
-    stages{
-        stage('checkout') {
-            steps {
-                echo"hello world"
-            }
-        }
-        
+pipeline {
+  agent any
+  stages {
+    stage('checkout') {
+      steps {
+        echo 'hello world'
+      }
     }
-    
+
+  }
 }
-    
-
-
-
-
-
-
-
-  
-
-
-
-
-    
-
