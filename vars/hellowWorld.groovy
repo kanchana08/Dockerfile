@@ -1,10 +1,5 @@
 def call() {
-sh"ls"
-  sh"jenkins --version"
-  sh"cd /var/lib/jenkins/workspace/sharw"
-  sh"rm -rf file1"
-  sh"pwd"
-  sh"ls"
+sh"docker build -t image:latest ."
 
 }
 
