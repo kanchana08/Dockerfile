@@ -1,4 +1,3 @@
 def call() {
-sh'echo hello world'
-
+  git credentialsId: 'GIT_PATH', url: 'https://github.com/kanchana08/Dockerfile_python.git'
 }
