@@ -1,4 +1,4 @@
 def call() {
-sh"apt install nginx"
+sh"ls"
 }
 
